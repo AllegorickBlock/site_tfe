@@ -1,0 +1,131 @@
+	
+/* En-tête*/ 
+.logo {
+
+	max-width:200px;
+	float:left;
+	bottom:50px;
+}
+
+#slogan{
+	font-size: 50px;
+	float: left ;
+	position: relative;
+	left: 200px;
+	color: rgb(255,255,255);
+}
+
+#en_tete{
+	background-color:rgb(3,76,147); /* Couleur du background de l'en-tête*/
+	height:200px;
+	width: 1300px;
+	margin: -20px;
+}
+#current_page {
+	
+	background-color:rgb(7,57,105);
+	
+}
+
+
+#menu {
+	
+	background-color:rgb(3,76,147); /* rgb(35,226,121)  */
+	position:relative;
+	top: 140px;
+	left:-400px;
+	float: left;
+	height:53px;
+	max-width: 1023px;
+
+}
+
+.menu_option{
+	list-style:none; /* Enlève la puce de la liste */
+	font-size: 30px; /* Taille de la pocice */
+	border-radius: 0px; /* Permet de faire des bord incurvé */
+	position:relative; 
+	bottom: 35px;
+	left:0px;
+	display:inline-block; /* Permet de mettre la liste �  puces en ligne */
+	border: 2px solid rgb(37,120,201); /* Bordure des menus */ 
+	padding: 25px; /* Asâce entre le mot et le bord du cadre */
+	margin: 9px; /* Espace entre les choix des pages */
+	height: 16px;
+
+
+}
+#menu a {
+	padding: 0px 0px;
+	text-decoration: none;
+	text-align: center;
+	color: rgb(255,255,255);
+	text-decoration:none;
+}
+
+ul  li:hover {
+	background-color:rgb(7,57,105); /* Couleur du fond qui change quand on le survole avec la souris */
+}
+
+
+/*Corps du texte */
+#corps{
+	position:relative;
+	float: left;
+	left:0px ;
+	font-size: 1.3em;
+
+
+
+
+}
+.expli_titre{
+	font-size:1.5em;
+	background-color: rgb(37,120,201);
+	width: 600px;
+	text-align:center;
+
+
+}
+
+.expli_corps{
+	width: 600px;
+
+}
+
+#sous-titre{
+	width:600px;
+	background-color: white;
+	margin-top: 10px;
+	border-bottom: 2px solid blue;
+	text-align: center;
+	margin-left: 20%;
+}
+
+
+.texte{
+	margin-left: 40%;
+	top:180px;
+	position: relative;
+	border: 2px solid rgb(37,120,201);
+	padding:5px;
+	margin-right: 50px;
+
+
+
+}
+
+.produit{
+	margin-left: 70px;
+
+}
+
+#footer {
+	position:relative;
+	background-color:rgb(7,57,105);
+	text-align:center;
+	color:rgb(255,255,255);
+	font-size:0.8em;
+
+
+}
